@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: rgb(233, 230, 230);
+  padding: 0 16px;
+}
+
+.holder {
+  margin-left: 400px;
+  width: 900px;
+  background: #f9f7f7;
+}
+
+.avatar {
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  /* margin-left: 750px; */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.login {
+  margin-left: 500px;
+  width: 900px;
+  background: #f9f7f7;
+  margin-top: 300px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.login p {
+  margin-top: 10px;
+}
+
+.login button {
+  margin-top: 10px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+header {
+  background-color: #f5ba13;
+  margin: auto -2px;
+  padding: 16px 32px;
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  text-align: center;
+}
+
+footer {
+  /* Position the footer at the bottom */
+  position: sticky;
+  bottom: 0;
+  /* Set width to match content area (optional) */
+  width: 100%;
+
+  /* Add padding and background color for styling */
+  padding: 1rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+footer p {
+  color: #ccc;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f5ba13;
+}
+
+.form input {
+  height: 38px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 7px;
+  margin-left: 130px;
+  width: 500px;
+}
+
+.form {
+  margin: 0px;
+}
+
+button {
+  height: 38px;
+  margin: 5px;
+  padding: 4px;
+  border-radius: 4px;
+  font-family: "McLaren", cursive;
+}
+
+button img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+button:hover {
+  background-color: #f5ba13;
+  box-shadow: #f5ba13 0 3px 5px 0;
+  transition: 0.2s;
+  color: white;
+}
+
+.issue-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+  /*border: 3px solid red; */
+  font-weight: bolder;
+}
+
+.issue-list li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.issue-list a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.issue-list a:hover {
+  /* text-decoration: underline; */
+  background-color: rgb(255, 160, 160);
+}
+
+/* IssueDetails component styles */
+.issue-details {
+  padding: 20px;
+}
+
+.issue-details h2 {
+  margin-bottom: 10px;
+}
+
+.issue-details p {
+  margin-bottom: 20px;
+}
+
+.issue-details li {
+  list-style: none;
+}
